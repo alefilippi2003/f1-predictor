@@ -1,0 +1,31 @@
+round,event,session,total_laps,n_sc,n_vsc,neutralized_laps,pit_lane_s
+1,Australian Grand Prix,R,58,3,0,23,16.15
+2,Chinese Grand Prix,S,19,0,0,0,22.4
+2,Chinese Grand Prix,R,56,0,0,0,22.721
+3,Japanese Grand Prix,R,53,0,0,0,23.515
+4,Bahrain Grand Prix,R,57,1,0,5,24.7965
+5,Saudi Arabian Grand Prix,R,50,1,0,4,20.827
+6,Miami Grand Prix,S,19,1,0,7,22.889499999999998
+6,Miami Grand Prix,R,57,0,3,9,22.366
+7,Emilia Romagna Grand Prix,R,63,1,1,13,30.317
+8,Monaco Grand Prix,R,78,0,1,4,24.3155
+9,Spanish Grand Prix,R,66,1,0,7,22.162
+10,Canadian Grand Prix,R,70,1,0,4,18.2
+11,Austrian Grand Prix,R,70,1,0,4,21.677999999999997
+12,British Grand Prix,R,52,2,2,16,28.917
+13,Belgian Grand Prix,S,15,0,0,0,
+13,Belgian Grand Prix,R,44,0,0,2,23.6785
+14,Hungarian Grand Prix,R,70,0,0,0,21.5
+15,Dutch Grand Prix,R,72,3,1,19,18.014499999999998
+16,Italian Grand Prix,R,53,0,0,0,24.916
+17,Azerbaijan Grand Prix,R,51,1,0,5,20.669
+18,Singapore Grand Prix,R,62,0,0,0,24.075
+19,United States Grand Prix,S,19,2,0,10,31.294
+19,United States Grand Prix,R,56,0,1,3,24.007
+20,Mexico City Grand Prix,R,71,0,1,3,22.647
+21,São Paulo Grand Prix,S,24,1,0,4,1331.1
+21,São Paulo Grand Prix,R,71,1,1,8,23.49
+22,Las Vegas Grand Prix,R,50,0,2,6,21.638
+23,Qatar Grand Prix,S,19,0,0,0,30.852
+23,Qatar Grand Prix,R,57,1,0,5,28.942
+24,Abu Dhabi Grand Prix,R,58,0,0,0,21.799

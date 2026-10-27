@@ -1,0 +1,54 @@
+1795 righe, stagioni [np.int64(2023), np.int64(2024), np.int64(2025), np.int64(2026)]
+
+=== Tutte le stagioni ===
+                                  gare  spearman  errore_pct
+modalita modello                                            
+stagione Lasso (tutte)              61     0.840       0.407
+         LightGBM (tutte)           61     0.831       0.381
+         Rete neurale (tutte)       61     0.717       0.625
+         modello A (5 variabili)    61     0.827       0.397
+         solo qualifica             61     0.795       0.481
+tutte    Lasso (tutte)              65     0.848       0.365
+         LightGBM (tutte)           65     0.838       0.360
+         Rete neurale (tutte)       65     0.793       0.442
+         modello A (5 variabili)    65     0.828       0.391
+         solo qualifica             65     0.797       0.510
+
+=== Per stagione (modalita' 'tutte') ===
+season                    2023   2024   2025   2026
+modello                                            
+Lasso (tutte)            0.787  0.890  0.800  0.930
+LightGBM (tutte)         0.770  0.871  0.797  0.931
+Rete neurale (tutte)     0.693  0.809  0.771  0.923
+modello A (5 variabili)  0.766  0.873  0.766  0.931
+solo qualifica           0.671  0.856  0.758  0.925
+
+=== Importanza delle variabili (allenato 2023-25, misurato sul 2026) ===
+                 Lasso (tutte): peggioramento errore se rimescolata  LightGBM (tutte): peggioramento errore se rimescolata  Lasso: coefficiente (standardizzato)
+quali_gap                                                    0.0632                                                 0.2127                                0.0916
+team_race_pace3                                              0.1273                                                 0.0723                                0.1148
+fp_best_lap_gap                                              0.0756                                                 0.0484                                0.0871
+quali_pos                                                    0.0743                                                 0.0430                                0.1307
+track_overtake                                               0.0282                                                 0.0380                               -0.1093
+grid                                                         0.0360                                                 0.0317                                0.0799
+drv_race_pace3                                               0.0809                                                 0.0287                                0.0873
+team_points3                                                 0.0210                                                 0.0260                               -0.0661
+pace_FP2                                                     0.0130                                                 0.0176                                0.0368
+drv_points3                                                  0.0222                                                 0.0130                               -0.0736
+sprint_pos                                                   0.0004                                                 0.0036                                0.0023
+weekend_deg                                                  0.0011                                                 0.0029                               -0.0146
+drv_avg_gain                                                 0.0000                                                 0.0023                                0.0000
+quali_tm_gap                                                -0.0001                                                 0.0018                               -0.0127
+pace_S                                                       0.0052                                                 0.0016                                0.0155
+pace_FP3                                                     0.0013                                                 0.0007                               -0.0000
+sprint_weekend                                               0.0000                                                 0.0005                                0.0000
+fp_tm_gap                                                    0.0000                                                 0.0002                               -0.0000
+wet_before_race                                             -0.0004                                                 0.0000                               -0.0494
+pace_FP1                                                     0.0012                                                -0.0001                                0.0065
+grid_penalty                                                 0.0000                                                -0.0001                                0.0000
+team_dnf_rate                                                0.0000                                                -0.0006                               -0.0000
+drv_start_form                                              -0.0002                                                -0.0007                               -0.0037
+longrun_laps                                                -0.0003                                                -0.0010                                0.0221
+drv_dnf_rate                                                 0.0000                                                -0.0011                               -0.0000
+track_sc_rate                                               -0.0014                                                -0.0063                               -0.0171
+team_quali_gap3                                             -0.0051                                                -0.0147                               -0.0326

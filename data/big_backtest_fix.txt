@@ -1,0 +1,24 @@
+2023 A: Scelto incertezza x0.05 0 errori
+2023 ML_lasso: Scelto incertezza x0.05 0 errori
+2023 ML_lgbm: Scelto incertezza x0.05 0 errori
+2025 A: Scelto incertezza x0.3 0 errori
+2025 ML_lasso: Scelto incertezza x0.3 0 errori
+2025 ML_lgbm: Scelto incertezza x0.05 0 errori
+2025 ML_lasso_stag: Scelto incertezza x0.05 0 errori
+2025 ML_lgbm_stag: Scelto incertezza x0.3 0 errori
+=== 2023 ===
+                                  modello  gare  errore_pos  spearman  punti (su 10)  podio (su 3)  vincitori
+                     Ordine della griglia    17        2.81      0.67           7.35          1.82         11
+            Modello semplice (classifica)    17        2.46      0.75           7.94          1.82         17
+Simulatore A (qualifica + libere + forma)    17        2.77      0.71           7.76          1.53         15
+   Simulatore + Lasso (tutte le stagioni)    17        2.51      0.74           7.82          1.76         14
+Simulatore + LightGBM (tutte le stagioni)    17        2.58      0.73           7.94          1.88         16
+=== 2025 ===
+                                  modello  gare  errore_pos  spearman  punti (su 10)  podio (su 3)  vincitori
+                     Ordine della griglia    19        2.45      0.75           7.79          2.21         12
+            Modello semplice (classifica)    19        2.55      0.75           7.47          2.00         12
+Simulatore A (qualifica + libere + forma)    19        2.42      0.76           7.32          2.00         11
+   Simulatore + Lasso (tutte le stagioni)    19        2.34      0.78           7.68          1.95          8
+       Simulatore + Lasso (solo stagione)    19        2.33      0.78           7.68          2.00         12
+Simulatore + LightGBM (tutte le stagioni)    19        2.46      0.76           7.47          1.95         12
+    Simulatore + LightGBM (solo stagione)    19        2.37      0.78           7.63          2.05         12

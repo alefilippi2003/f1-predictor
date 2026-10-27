@@ -1,0 +1,23 @@
+driver,finish_pos,grid,dnf,status
+ANT,1,1,0,Finished
+LEC,2,4,0,Finished
+VER,3,2,0,Finished
+HAM,4,5,0,Finished
+NOR,5,8,0,Finished
+HAD,6,3,0,Finished
+PIA,7,7,0,Finished
+RUS,8,6,0,Finished
+LAW,9,9,0,Finished
+GAS,10,10,0,Finished
+HUL,11,11,0,Finished
+LIN,12,14,0,+1 lap
+BOR,13,21,0,+1 lap
+OCO,14,15,0,+1 lap
+STR,15,22,0,+1 lap
+ALO,16,12,0,+1 lap
+ALB,17,17,0,+1 lap
+SAI,18,16,0,+1 lap
+PER,19,18,0,+1 lap
+BOT,20,19,1,Ritirato
+COL,21,20,1,Ritirato
+BEA,22,13,1,Ritirato

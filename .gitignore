@@ -1,0 +1,8 @@
+# ambiente e cache (si ricreano)
+.venv/
+__pycache__/
+cache/
+seasons/*/cache/
+# output pesanti o temporanei
+*.npz
+*.log

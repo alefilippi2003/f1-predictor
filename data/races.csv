@@ -1,0 +1,25 @@
+round,event,session,total_laps,n_sc,n_vsc,neutralized_laps,pit_lane_s
+1,Australian Grand Prix,R,58,0,3,10,19.085
+2,Chinese Grand Prix,S,19,1,0,5,23.826999999999998
+2,Chinese Grand Prix,R,56,1,0,5,23.39
+3,Japanese Grand Prix,R,53,1,0,7,24.3
+4,Miami Grand Prix,S,19,0,0,0,40.821
+4,Miami Grand Prix,R,57,1,0,7,23.1265
+5,Canadian Grand Prix,S,23,0,0,0,31.5
+5,Canadian Grand Prix,R,68,0,3,8,25.35
+6,Monaco Grand Prix,R,78,2,0,10,25.1
+7,Barcelona Grand Prix,R,66,0,2,7,22.737499999999997
+8,Austrian Grand Prix,R,71,0,2,6,21.5
+9,British Grand Prix,S,17,0,0,0,39.75
+9,British Grand Prix,R,52,2,2,10,29.5
+10,Belgian Grand Prix,R,45,1,2,10,24.7365
+11,Hungarian Grand Prix,R,70,0,1,3,21.95
+12,Dutch Grand Prix,S,24,0,0,0,647.2
+12,Dutch Grand Prix,R,72,0,2,6,18.6
+13,Italian Grand Prix,R,53,1,1,3,1841.9
+14,Spanish Grand Prix,R,57,0,1,3,31.4
+15,Azerbaijan Grand Prix,R,51,2,0,9,20.55
+16,Bahrain Grand Prix,R,55,2,1,13,28.2
+17,Singapore Grand Prix,S,20,1,0,6,19.35
+17,Singapore Grand Prix,R,62,0,2,6,24.3
+18,United States Grand Prix,R,56,0,2,6,24.2

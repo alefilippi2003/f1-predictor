@@ -1,0 +1,56 @@
+2023 ML_lasso: Scelto incertezza x0.05 0 errori
+2023 A: Scelto incertezza x0.05 0 errori
+2023 ML_lgbm: Scelto incertezza x0.05 0 errori
+2024 A: Scelto incertezza x0.3 0 errori
+2024 ML_lasso: Scelto incertezza x0.3 0 errori
+2024 ML_lgbm: Scelto incertezza x0.3 0 errori
+2024 ML_lgbm_stag: Scelto incertezza x0.3 0 errori
+2024 ML_lasso_stag: Scelto incertezza x0.3 0 errori
+2025 A: Scelto incertezza x0.3 0 errori
+2025 ML_lasso: Scelto incertezza x0.3 0 errori
+2025 ML_lasso_stag: Scelto incertezza x0.3 0 errori
+2025 ML_lgbm: Scelto incertezza x0.3 0 errori
+2026 A: Scelto incertezza x0.05 0 errori
+2025 ML_lgbm_stag: Scelto incertezza x0.3 0 errori
+2026 ML_lasso: Scelto incertezza x0.3 0 errori
+2026 ML_lgbm: Scelto incertezza x0.3 0 errori
+2026 ML_lasso_stag: Scelto incertezza x0.3 0 errori
+2026 ML_lgbm_stag: Scelto incertezza x0.3 0 errori
+=== 2023 ===
+                                  modello  gare  errore_pos  spearman  punti (su 10)  podio (su 3)  vincitori
+                     Ordine della griglia    17        2.81      0.67           7.35          1.82         11
+            Modello semplice (classifica)    17        2.46      0.75           7.94          1.82         17
+Simulatore A (qualifica + libere + forma)    17        3.22      0.62           7.29          1.41         13
+   Simulatore + Lasso (tutte le stagioni)    17        2.90      0.65           7.35          1.59         13
+Simulatore + LightGBM (tutte le stagioni)    17        3.01      0.64           7.47          1.71         14
+=== 2024 ===
+                                  modello  gare  errore_pos  spearman  punti (su 10)  podio (su 3)  vincitori
+                     Ordine della griglia    19        2.28      0.79           8.26          2.00          7
+            Modello semplice (classifica)    19        2.12      0.83           8.32          1.89          5
+Simulatore A (qualifica + libere + forma)    19        2.08      0.84           8.32          1.74          6
+   Simulatore + Lasso (tutte le stagioni)    19        1.99      0.84           8.32          1.89          6
+       Simulatore + Lasso (solo stagione)    19        2.03      0.84           8.21          1.89          4
+Simulatore + LightGBM (tutte le stagioni)    19        2.06      0.83           8.21          1.95          5
+    Simulatore + LightGBM (solo stagione)    19        2.04      0.84           8.42          1.74          6
+=== 2025 ===
+                                  modello  gare  errore_pos  spearman  punti (su 10)  podio (su 3)  vincitori
+                     Ordine della griglia    19        2.45      0.75           7.79          2.21         12
+            Modello semplice (classifica)    19        2.55      0.75           7.47          2.00         12
+Simulatore A (qualifica + libere + forma)    19        4.32      0.30           5.79          1.37          6
+   Simulatore + Lasso (tutte le stagioni)    19        4.38      0.29           6.05          1.26          4
+       Simulatore + Lasso (solo stagione)    19        4.26      0.31           6.00          1.26          6
+Simulatore + LightGBM (tutte le stagioni)    19        4.49      0.28           5.84          1.32          6
+    Simulatore + LightGBM (solo stagione)    19        4.42      0.29           5.89          1.37          5
+=== 2026 ===
+                          Ordine della griglia    13        2.08      0.81           7.77          1.92          9
+                 Modello semplice (classifica)    13        2.07      0.83           7.85          1.85          6
+     Simulatore A (qualifica + libere + forma)    13        1.92      0.84           8.00          1.92          7
+    Simulatore B (FP3/sprint, senza qualifica)    12        2.35      0.79           7.42          1.33          1
+   Simulatore B2 (FP2/sprint, senza qualifica)    12        2.38      0.79           7.17          1.42          1
+ Simulatore C (60% FP3/sprint + 40% qualifica)    12        2.19      0.82           7.67          1.42          5
+Simulatore C2 (60% FP2/sprint + 40% qualifica)    12        2.14      0.82           7.42          1.58          4
+       Simulatore D (griglia + libere + forma)    13        2.08      0.81           7.69          1.85          7
+        Simulatore + Lasso (tutte le stagioni)    13        1.94      0.84           7.92          1.77          5
+            Simulatore + Lasso (solo stagione)    13        2.03      0.83           7.92          1.77          6
+     Simulatore + LightGBM (tutte le stagioni)    13        1.92      0.85           7.92          1.77          5
+         Simulatore + LightGBM (solo stagione)    13        1.99      0.84           7.85          1.77          4

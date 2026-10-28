@@ -6,3 +6,5 @@ seasons/*/cache/
 # output pesanti o temporanei
 *.npz
 *.log
+# appunti personali
+STATO.md
